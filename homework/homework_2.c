@@ -28,7 +28,7 @@ void binario(int j)
      printf("\n");        /* al terminar de imprimir, salto de linea*/
 }
 
-void primo(int k) 
+void primo(int k)             /*Helped by Orla Gomez and rulgamer*/
 {
   int i, contador, x, flag;
   int n=1;

@@ -53,7 +53,7 @@ int main()
           break;
 
       default:
-        if(x!='.'&&x!=':'&&x!='\?'&&x!='!'&&x!='-'&&x!=';'&&x!='_')     /*Se le quita la puntuacion al texto*/
+        if(x!='.'&&x!=':'&&x!='\?'&&x!='!'&&x!='-'&&x!=';'&&x!='_')  /*Se le quita la puntuacion al texto*/
         {                                                                 
             if (parnt==TRUE||comillas==TRUE)
             {

@@ -1,5 +1,5 @@
 /*COPY AND PASTE THIS CODE IN ONLINE GDB IN 3 FILES AND RENAME EACH FILE AS:
-THE FIRST ONE: main.c 
+THE FIRST ONE: main.c (THIS IS THE FIRST ONE)
 THE SECOND: function.c
 The THIRD: function.h*/
 #include <stdio.h>   

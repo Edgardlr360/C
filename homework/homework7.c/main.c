@@ -350,4 +350,4 @@ void horario()
     fclose(leersistema);
     fclose(escribirhorario);
 }
-/* agradecimiento a rulgamer7, bossmasterjimenez y satuelisa/ 
+/* agradecimiento a satuelisa, lil roi, rulgamer7, bossmasterjimenez*/ 

@@ -1,8 +1,4 @@
-/*
-Como compilar?
-¡TENER EN CUENTA QUE AL USAR GDB Y LA LIBRERIA TIME.h nos da un TIEMPO DIFERENTE al de MEXICO!
-Se recomienda usar el compilador online gdb
-Este archivo va en el main.c, se crea el archivo registros.h usando Ctrl m o dando click en el botón de crear un nuevo archivo 
+/*Este archivo va en el main.c, se crea el archivo registros.h usando Ctrl m o dando click en el botón de crear un nuevo archivo 
 y se pone lo que esta en el repositorio con ese nombre 
 Con ctrl m o dando click en el botón de crea un nuevo archivo se crea sistema.txt/entradas.txt/salidas.txt/reporte.txt/horario.txt
 Primero si se desea agregar un usuario seguir las instrucciones que se indican en el programa (teclear el numero 3 y dar enter) despues agregar los datos
@@ -12,18 +8,12 @@ el archivo de sistema.txt junto con los dias que trabaja y los que no trabaja, l
 el archivo de entradas.txt y para registrar una salida se realiza lo mismo que se realizo en la entrada solo que ahora se registrara en el archivo salidas.txt,
 para que estas cosas se puedan registrar se debe de teclear el numero 4 para terminar el programa (tienes que estar seguro de que llenastes todos los datos de registrar usuario,
 entradas y salidas antes de terminar el programa) una vez ya terminado todo se deberia de ver tambien que en el archivo de horarios.txt se debio de agregar el horario nuevo si es que
-registrastes a un nuevo usuario y en el archivo reporte.txt debe de aparecer el cuando el usuario entro (hora y fecha) y el tiempo que trabajó.
-¡¡IMPORTANTE!! 
+registrastes a un nuevo usuario y en el archivo reporte.txt debe de aparecer el cuando el usuario entro (hora y fecha) y el tiempo que trabajó. 
 En sistema.txt van 6 lineas (5 lineas que estan ocupadas y 1 en blanco)
 En entradas.txt van 6 lineas (5 lineas que ocupadas y 1 en blanco)
 En salidas.txt van 6 lineas (5 lineas que estan ocupadas y 1 en blanco)
 En reporte.txt van 11 lineas (10 lineas que estan ocupadas y 1 en blanco)
-En horario.txt van 15 lineas (14 lineas que estan ocupadas y 1 en blanco)
-Al decir una en blanco se debe dar un enter para dejar un espacio vacio
-¡¡¡ADVERTENCIA!!!
-Para crear un usuario por favor no usar acentos ya que eso puede llegar a romper el programa
-*/
-
+En horario.txt van 15 lineas (14 lineas que estan ocupadas y 1 en blanco) */
 
 #include <stdlib.h>
 #include <time.h>
@@ -360,5 +350,4 @@ void horario()
     fclose(leersistema);
     fclose(escribirhorario);
 }
-/* Este programa fue hecho con la ayuda de rulgamer07, Brian W. Kernighan, Dennis M. Ritchie - The C Programming Language, Second Edition (1988), 
-https://github.com/satuelisa/C/tree/main/Ch7, and the c-refcard */
+/* agradecimiento a rulgamer7, bossmasterjimenez y satuelisa/ 

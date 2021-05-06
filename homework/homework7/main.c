@@ -1,3 +1,4 @@
+/* Realizado con ayuda a los repos de AbnerlO, lil Roi y AntonioCG2002*/
 #include "header.c"
 
 int main(){

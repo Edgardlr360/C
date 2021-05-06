@@ -1,3 +1,4 @@
+/* Realizado con ayuda a los repos de AbnerlO, lil Roi y AntonioCG2002/*
 #include "header.h"
 
 int Registro(void){
@@ -124,4 +125,4 @@ int HorasLab(int pin){
         }
     }
 }
-/* Hecho con ayuda a los repos de AbnerlO y AntonioCG2002/*
+

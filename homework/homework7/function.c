@@ -1,4 +1,4 @@
-/* Realizado con ayuda a los repos de AbnerlO, lil Roi y AntonioCG2002/*
+/* Realizado con ayuda a los repos de AbnerlO, lil Roi y AntonioCG2002*/
 #include "header.h"
 
 int Registro(void){

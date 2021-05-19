@@ -11,7 +11,7 @@ The cinema has 3 rooms, there are 2 different hours in each room (4:00 pm and 6:
 - List movies that are being shown on a certain day by age rating.
 - Exit the program.
 
-Finally this program will print a ticket giving you all the prior information select with the information of the cinema and wishing you a good day.
+Finally this program will print a ticket giving you all the prior information select with the information of the cinema.
 
 
 

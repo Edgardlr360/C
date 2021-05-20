@@ -9,9 +9,9 @@ Selfevaluation
 
 2: functionality 3 (it's very goog)
 
-3: code 3 (It´s very well structure)
+3: code 2 (It´s very well structure)
 
-4: storage 2 (It can hold 3 movies)
+4: storage 3 (The program, holds a large information and variables )
 
 5: documentation 3 (The info it´s very good, the video explains and shows the program)
 

@@ -1,6 +1,8 @@
 #  FINAL PROJECT PIA
 ##  MOVIE SELECTOR APP
 
+Link to video: https://youtu.be/agP0oqd02ig
+
 This a program that stores the information of the films that are screened in the different theaters.
 The cinema has 3 rooms, there are 2 different hours in each room (4:00 pm and 6:00 pm) and it will have an interactive menu. The program will define the data structures (struct) necessary to store the information about the films: film title, start time and rooms where it is projected, classification (A, B, and C).
 
@@ -8,7 +10,7 @@ The cinema has 3 rooms, there are 2 different hours in each room (4:00 pm and 6:
 - Register a movie. If there was already a movie, it will be replaced.
 - Display all the information of the film that is projected in a movie theater. The user will be asked to provide the cinema, the room, the time and the corresponding day, and the program will list the information of the film that is projected on the billboard. 
 - Search movie. The user chooses the movie he wants to search and display all the information.
-- List movies that are being shown on a certain day by classification.
+- List movies that are being shown on a certain day by rating.
 - Exit the program.
 
 

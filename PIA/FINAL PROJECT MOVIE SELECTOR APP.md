@@ -13,5 +13,6 @@ The cinema has 3 rooms, there are 2 different hours in each room (4:00 pm and 6:
 
 Finally this program will print a ticket giving you all the prior information select with the information of the cinema.
 
+References:
 
 

@@ -24,7 +24,7 @@ struct detalleDePelicula *
 buscar(char horaInicio[MAX_CADENA], char cine[MAX_CADENA], char sala[MAX_CADENA],
        char dia[MAX_CADENA]) {
     // Vamos a usar este temporal para leer toda la pila
-    struct detalleDePelicula *temporal = superior;                         /*Ends*/
+    struct detalleDePelicula *temporal = superior;                       
     
     while (temporal != NULL) {
         if (
@@ -38,7 +38,7 @@ buscar(char horaInicio[MAX_CADENA], char cine[MAX_CADENA], char sala[MAX_CADENA]
         temporal = temporal->siguiente;
     }
 
-    return NULL;
+    return NULL;                              /*Ends*/
 }
 
 void

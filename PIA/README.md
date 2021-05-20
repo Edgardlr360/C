@@ -1,6 +1,8 @@
 #  FINAL PROJECT PIA
 ##  MOVIE SELECTOR APP
 
+Link to video explanation of the program: https://youtu.be/agP0oqd02ig
+
 Selfevaluation
 
 1: complexity 2 (It´s not complicated, but it´s not easy)
@@ -14,8 +16,6 @@ Selfevaluation
 5: documentation 2 (The info it´s very good, the video explains and shows the program)
 
 CF: 12 pts
-
-Link to video explanation of the program: https://youtu.be/agP0oqd02ig
 
 This a program that stores the information of the films that are screened in the different theaters.
 The cinema has 3 rooms, there are 2 different hours in each room (4:00 pm and 6:00 pm) and it will have an interactive menu. The program will define the data structures (struct) necessary to store the information about the films: film title, start time and rooms where it is projected, classification (A, B, and C).

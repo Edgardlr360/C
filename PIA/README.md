@@ -1,6 +1,14 @@
 #  FINAL PROJECT PIA
 ##  MOVIE SELECTOR APP
 
+Selfevaluation
+1: complexity 2 (It´s not complicated, but it´s not easy)
+2: functionality 3 (it's very goog)
+3: code 3 (It´s very well structure)
+4: storage 2 (It can hold 3 movies)
+5: documentation 2 (The info it´s very good, the video explains and shows the program)
+CF: 12 pts
+
 Link to video explanation of the program: https://youtu.be/agP0oqd02ig
 
 This a program that stores the information of the films that are screened in the different theaters.

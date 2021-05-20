@@ -13,7 +13,7 @@ Selfevaluation
 
 4: storage 2 (It can hold 3 movies)
 
-5: documentation 2 (The info it´s very good, the video explains and shows the program)
+5: documentation 3 (The info it´s very good, the video explains and shows the program)
 
 CF: 12 pts
 

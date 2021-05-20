@@ -23,4 +23,5 @@ How to use Struct in C. (2021, May 19). Retrieved from Tutorialspoint: https://w
 
 This program was possible with the help of:
 Programas C++ Entradas de cine. (2021, May 19). Retrieved from Comunidad de Programadores: https://www.lawebdelprogramador.com/foros/Dev-C/1663113-Programa-C-Entradas-de-Cine.html
+
 Geek, T. (2021, May 18). MOVIE TICKET BOOKING SYSTEM IN C PROGRAMMING. Retrieved from YouTube: https://www.youtube.com/watch?v=B2ceBvQOL2E

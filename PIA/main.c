@@ -1,10 +1,15 @@
+/*Final Project Movie Selector App*/ 
+
+/*This program was made possible thanks to: Comunidad de Programadores: Programas C++ Entradas de cine" 
+and MOVIE TICKET BOOKING SYSTEM IN C PROGRAMMING for their helpful videos*/
+/* And Tutorialspoint for explaining how the library functions mempcy and struct works*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #define MAX_CADENA 101
 
-
-struct detalleDePelicula {
+struct detalleDePelicula {               /*Part based in Tutorialspoint examples*/
     char nombre[MAX_CADENA];
     char horaInicio[MAX_CADENA];
     char cine[MAX_CADENA];
@@ -13,14 +18,13 @@ struct detalleDePelicula {
     char clasificacion;
     struct detalleDePelicula *siguiente;
 };
-
 struct detalleDePelicula *superior = NULL;
 
 struct detalleDePelicula *
 buscar(char horaInicio[MAX_CADENA], char cine[MAX_CADENA], char sala[MAX_CADENA],
        char dia[MAX_CADENA]) {
     // Vamos a usar este temporal para leer toda la pila
-    struct detalleDePelicula *temporal = superior;
+    struct detalleDePelicula *temporal = superior;                         /*Ends*/
     
     while (temporal != NULL) {
         if (
@@ -36,7 +40,6 @@ buscar(char horaInicio[MAX_CADENA], char cine[MAX_CADENA], char sala[MAX_CADENA]
 
     return NULL;
 }
-
 
 void
 agregarPorPrimeraVez(char nombre[MAX_CADENA], char horaInicio[MAX_CADENA],
@@ -61,13 +64,13 @@ void agregarOActualizar(char nombre[MAX_CADENA], char horaInicio[MAX_CADENA],
         agregarPorPrimeraVez(nombre, horaInicio, cine, sala, dia, clasificacion);
         printf("\nAdded Movie\n");
     } else {
-  
-        memcpy(existente->nombre, nombre, MAX_CADENA);
+                                                                
+        memcpy(existente->nombre, nombre, MAX_CADENA);              /*Part based in Tutorialspoint examples*/
         memcpy(existente->horaInicio, horaInicio, MAX_CADENA);
         memcpy(existente->cine, cine, MAX_CADENA);
         memcpy(existente->sala, sala, MAX_CADENA);
         memcpy(existente->dia, dia, MAX_CADENA);
-        existente->clasificacion = clasificacion;
+        existente->clasificacion = clasificacion;                    /*Ends*/
         printf("\nMovie Already existed, it was replaced\n");
     }
 }
@@ -105,7 +108,7 @@ void buscarPeliculaPorDiaYClasificacion(char dia[MAX_CADENA], char clasificacion
     struct detalleDePelicula *temporal = superior;
     while (temporal != NULL) {
         if (strcmp(dia, temporal->dia) == 0 && temporal->clasificacion == clasificacion) {
-            imprimirPelicula(temporal); // <-- Aquí reusamos la función "imprimirPelicula"
+            imprimirPelicula(temporal); 
         }
         temporal = temporal->siguiente;
     }
@@ -128,7 +131,7 @@ int main() {
             return 0;
         }
        
-        switch (eleccion) {
+        switch (eleccion) {                                            /*Help by MOVIE TICKET BOOKING SYSTEM IN C PROGRAMMING and Comunidad de Programadores: Programas C++ Entradas de cine to create the cases*/
            
             case 1:
                 

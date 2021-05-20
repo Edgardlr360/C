@@ -5,7 +5,7 @@ Link to video explanation of the program: https://youtu.be/agP0oqd02ig
 
 Selfevaluation
 
-1: complexity 2 (It´s not complicated, but it´s not easy)
+1: complexity 3 (It´s not complicated, but it´s not easy)
 
 2: functionality 3 (it's very goog)
 

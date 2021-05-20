@@ -9,13 +9,13 @@ Selfevaluation
 
 2: functionality 3 (it's very goog)
 
-3: code 2 (It´s very well structure)
+3: code 3 (It´s very well structure)
 
 4: storage 3 (The program, holds a large information and variables )
 
 5: documentation 3 (The info it´s very good, the video explains and shows the program)
 
-CF: 12 pts
+CF: 14 pts
 
 This a program that stores the information of the films that are screened in the different theaters.
 The cinema has 3 rooms, there are 2 different hours in each room (4:00 pm and 6:00 pm) and it will have an interactive menu. The program will define the data structures (struct) necessary to store the information about the films: film title, start time and rooms where it is projected, classification (A, B, and C).
